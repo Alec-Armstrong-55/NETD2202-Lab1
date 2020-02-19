@@ -1,0 +1,34 @@
+'Project: Lab1
+'Name: Alec Armstrong 100617553
+'Date: 2020-01-16
+'Desc: Will take an input for each day in the week numbered from 1 to 7. Input data will then be validated and 
+'displayed to the user. Once the number of units has been entered for the final day a calculation for average will 
+'be done and displayed to the user. After the 7th day will not allow the user to access the enter key or input any
+'more data until the form is reset. The user will be allowed to exit at any time.
+
+'Constant
+'Days in the week
+
+'Variables
+'Input used to tryparse into array, string
+'Average, double
+'tester used to check if number is a whole number, integer
+
+'Array
+'Set to contain unit entries for each day, using days in the week constant, integers
+
+'Exit button
+'Close the form
+
+'Reset button
+'Clear all fields 
+'Clear contents of array and variables
+'Set focus on the input field
+
+'Enter button
+'Validate that input is an integer using tryparse
+'Check what day array is on
+'If days 1-6 store units in day array and display in the PrevUnits text box
+'If day 7 store units in day array, display in the PrevUnits text box, make the enter button hidden and show the unuseable enter button
+'Calculate the average of all the days in the array
+ 
